@@ -1,0 +1,112 @@
+.table thead .table___head-row {
+  width: 1110px;
+  height: 49px;
+}
+.table thead .table___head-row th {
+  text-align: start;
+  margin-right: 16px;
+  color: #000;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+.table thead .table___head-row .head-row1 {
+  width: 120px;
+  text-align: center;
+  margin-top: 18px;
+}
+.table thead .table___head-row .head-row6 {
+  margin-top: 18px;
+}
+
+th .head-row__sort-icon {
+  margin-left: 55px;
+}
+
+tbody .table__row {
+  width: 1110px;
+  height: 64px;
+}
+tbody .table__row td {
+  color: #000;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+tbody .table__row td .row-data__row-image {
+  width: 32px;
+  height: 32px;
+}
+tbody .table__row td .row-data__edit-icon {
+  width: 24px;
+  height: 24px;
+  margin-right: 16px;
+}
+tbody .table__row td .row-data__trash-icon {
+  width: 24px;
+  height: 24px;
+}
+tbody .table__row .row-data1 {
+  text-align: center;
+}
+tbody .table__row .row-data2 {
+  display: flex;
+  align-items: center;
+  justify-content: start;
+  gap: 8px;
+  margin-top: 16px;
+}
+tbody .table__row .row-data2 p {
+  color: #000;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+tbody .table__row .row-data__status {
+  display: flex;
+  padding: 8px 12px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  width: 83px;
+  border-radius: 22px;
+  background: #EBF9F1;
+  transition: all 0.5s;
+  text-decoration: none;
+  color: #1F9254;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+tbody .table__row .row-data__status:hover {
+  background: #c6f5da;
+  box-shadow: 0 0 16px rgb(161, 186, 161);
+}
+tbody .table__row:nth-child(odd) {
+  background-color: #F7F6FE;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Montserrat";
+}
+
+.container {
+  width: 1110px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.container table {
+  max-width: 1110px;
+  width: 100%;
+  border-collapse: collapse;
+}/*# sourceMappingURL=main.css.map */
