@@ -1,0 +1,90 @@
+.container{
+
+    .footer-row{
+        display: flex;
+        justify-content: center;
+        align-items:center;
+        gap: 12px;
+        padding: 16px;
+
+    .footer-row__text1 {
+        color: #9E9E9E;
+        font-size: 12px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: normal;
+    }
+    .footer-row__number-link1 {
+        color: #000;
+        text-align: center;
+        font-size: 12px;
+        font-style: normal;
+        text-decoration: none;
+        font-weight: 500;
+        line-height: normal;
+
+        width: 31px;
+        height: 31px;
+        padding: 8px 9px;
+        border-radius: 8px;
+        background: #E0E0E0;
+        transition: all o.5s;
+        cursor: pointer;
+        &:hover{
+            background: #624DE3;
+            color:#fff;
+        }
+    }
+    .footer-row__number-link2 {
+        color: #000;
+        text-align: center;
+        font-size: 12px;
+        font-style: normal;
+        text-decoration: none;
+        font-weight: 500;
+        line-height: normal;
+
+        width: 31px;
+        height: 31px;
+        padding: 8px 9px;
+        border-radius: 8px;
+        background: #E0E0E0;
+        transition: all o.5s;
+        cursor: pointer;
+        &:hover{
+            background: #624DE3;
+            color:#fff;
+        }
+    }
+    .footer-row__number-link3 {
+        color: #000;
+        text-align: center;
+        font-size: 12px;
+        font-style: normal;
+        text-decoration: none;
+        font-weight: 500;
+        line-height: normal;
+
+        width: 31px;
+        height: 31px;
+        padding: 8px 9px;
+        border-radius: 8px;
+        background: #E0E0E0;
+        transition: all o.5s;
+        cursor: pointer;
+        &:hover{
+            background: #624DE3;
+            color:#fff;
+        }
+    }
+    .footer-row__text2 {
+        color: #9E9E9E;
+        font-size: 12px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: normal;
+    }
+    
+    }
+
+}
