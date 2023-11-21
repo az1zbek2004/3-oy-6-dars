@@ -57,6 +57,52 @@ tbody{
             background:#c6f5da;
             box-shadow: 0 0 16px rgb(161, 186, 161);
         }
+        &-red{
+            display: flex;
+            padding: 8px 12px;
+            justify-content: center;
+            align-items: center;
+            gap: 10px;
+            width: 83px;
+            border-radius: 22px;
+            background: #FBE7E8;
+            transition: all 0.5s;
+            &:hover{
+                background:#d69397;
+                box-shadow: 0 0 16px #bc6e71;
+            }
+
+            text-decoration: none;
+            color: #A30D11;
+            font-size: 12px;
+            font-style: normal;
+            font-weight: 500;
+            line-height: normal;
+        }
+
+        text-decoration: none;
+        &-orange{
+            display: flex;
+            padding: 8px 12px;
+            justify-content: center;
+            align-items: center;
+            gap: 10px;
+            width: 83px;
+            border-radius: 22px;
+            background: #FEF2E5;
+            transition: all 0.5s;
+            &:hover{
+                background:#e8cdb3;
+                box-shadow: 0 0 16px #d49f66;
+            }
+
+            text-decoration: none;
+            color: #CD6200;
+            font-size: 12px;
+            font-style: normal;
+            font-weight: 500;
+            line-height: normal;
+        }
 
         text-decoration: none;
         color: #1F9254;

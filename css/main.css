@@ -76,6 +76,7 @@ tbody .table__row .row-data__status {
   background: #EBF9F1;
   transition: all 0.5s;
   text-decoration: none;
+  text-decoration: none;
   color: #1F9254;
   font-size: 12px;
   font-style: normal;
@@ -85,6 +86,48 @@ tbody .table__row .row-data__status {
 tbody .table__row .row-data__status:hover {
   background: #c6f5da;
   box-shadow: 0 0 16px rgb(161, 186, 161);
+}
+tbody .table__row .row-data__status-red {
+  display: flex;
+  padding: 8px 12px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  width: 83px;
+  border-radius: 22px;
+  background: #FBE7E8;
+  transition: all 0.5s;
+  text-decoration: none;
+  color: #A30D11;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+tbody .table__row .row-data__status-red:hover {
+  background: #d69397;
+  box-shadow: 0 0 16px #bc6e71;
+}
+tbody .table__row .row-data__status-orange {
+  display: flex;
+  padding: 8px 12px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  width: 83px;
+  border-radius: 22px;
+  background: #FEF2E5;
+  transition: all 0.5s;
+  text-decoration: none;
+  color: #CD6200;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+tbody .table__row .row-data__status-orange:hover {
+  background: #e8cdb3;
+  box-shadow: 0 0 16px #d49f66;
 }
 tbody .table__row:nth-child(odd) {
   background-color: #F7F6FE;
